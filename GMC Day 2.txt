@@ -1,0 +1,83 @@
+DAY 2
+The naviagtion tab is improtant to be used earlyon to help users navigate your page
+<nav> </nav>
+
+The items can be used by either of the two (2) tags below:
+1. ol - Ordered lists
+2. ul - Unordered list
+
+Inside of each above, you showul include the list tag:
+<li> </li>
+
+Next is the Division Tag used to organized code into sections
+<div> </div>
+
+Use Lorem to enter placehodler text
+Use <br> to break the text to the next line
+
+Use img for IMAGE
+Use vid for VIDEO
+Use aud for AUDIO
+
+ALways add controls at the end of the opening tag of each so it plays. Do not forget to rename as well
+
+DAY 3
+FORMS TAG
+The form tag creats a form space for you to include labels:
+<label for="Email">Email</label>
+
+Just right below it, you'd have to specify what type of input you want inside of the form
+<input type="email">
+
+Add a text area for users to write freely
+<textarea maxlength="50"></textarea>
+
+Lastly, add the button tag to submit the form
+<button type="submit">Submit</button>
+
+TABELS TAG
+For table, use the tag name: Table
+<table> </table>
+
+You then call the tabel Row: 
+<tr>
+</tr>
+
+The first row of a tabel always contains the TABEL HEADER, after that you call another TABLE ROW and add
+the TABLE DETAILS:
+<tr>
+    <th>Name</th>
+     <th>Name</th>
+</tr>	
+
+<tr>
+    <td>Name</td>
+     <td>Name</td>
+</tr>
+
+ANCHOR TAG
+The anchor tag is used to move between page by turning certain words into a link to and outside of a webpage
+For you to navigate to other pages, you must first create their own page too in the html file first:
+About.html
+Service.html
+Contact.html
+
+Now create the link tag:
+<a href="About.html">ABOUT</a>
+
+To create a link to an external page, add the TAGRET= "Blank" inside of the first anchor tag right after the href:
+<a href="https://www.facebook.com/" target="_blank">Facebook</a>
+
+DAY 4
+Use the select tag to create a dropdown of multiple options
+
+Git init
+Git Add
+Git Commit
+
+git init - Create a Git repository firstU means untracked
+git add . - Adds all the files in the folder
+git add index.htl - Adds all the file in the folder
+
+rm -fr .git - To be runned on Git Bash to remove repository
+
